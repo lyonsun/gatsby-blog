@@ -84,3 +84,24 @@
 ### 12. Result
 
   Visit [https://lyonsun.github.io/](https://lyonsun.github.io/) in the browser.
+
+## 📌 Start rolling the ball
+
+### 1. Add web fonts
+
+  - Download the font from NPM
+
+    ```shell
+    yarn add @fontsource/lato
+    ```
+
+  - Import the font lib in `layout.js`
+
+    ```javascript
+    import "@fontsource/lato"
+    ```
+
+  - Using it in `layout.css`
+    ```css
+    font-family: 'Lato', sans-serif;
+    ```
